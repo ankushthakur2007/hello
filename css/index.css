@@ -1,0 +1,71 @@
+/* Custom styles for modern minimalist ecommerce inspired by H&M */
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+.navbar-brand {
+  letter-spacing: 2px;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.hero-banner {
+  background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1350&q=80');
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  min-height: 400px;
+  margin-bottom: 3rem;
+  position: relative;
+  color: #fff;
+}
+
+.hero-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 0;
+}
+
+.hero-banner .container {
+  position: relative;
+  z-index: 1;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.card-text {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.btn-dark {
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-dark:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
+
+footer a.text-muted:hover {
+  color: #000 !important;
+}
